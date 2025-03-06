@@ -4,7 +4,7 @@ A simple Python client to interact with Grok using Playwright and an existing Ch
 
 ## Demo
 
-https://github.com/ChakshuGautam/grok-chat/grok-api.mp4
+https://github.com/user-attachments/assets/22b5e055-2a79-48c2-bf05-ce8d92ac049a
 
 ## Requirements
 

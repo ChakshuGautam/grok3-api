@@ -1,101 +1,112 @@
-# Grok3 API
+# Grok Chat Script
 
-Grok3 is cool, smart, and useful, but there is no official API available. This is an **unofficial Python client** for interacting with the Grok 3 API. It leverages cookies from browser requests to authenticate and access the API endpoints.
+A simple Python client to interact with Grok using Playwright and an existing Chrome instance. Provides both command-line usage and a Python client similar to OpenAI's interface.
 
----
+## Requirements
 
-## Setup
+- Python 3.7+
+- Playwright (`pip install playwright`)
+- Chrome browser with remote debugging enabled
 
-Follow these steps to get started with the Grok3 API client.
+## Installation
 
-### 1. Clone the Repository
-
-Clone this repository to your local machine:
-
+1. Clone this repository:
 ```bash
-git clone https://github.com/mem0ai/grok3-api.git
+git clone https://github.com/yourusername/grok-chat.git
+cd grok-chat
 ```
 
-### 2. Install the Package
-Navigate to the project directory, create a virtual environment, and install the package:
-
-```
-cd grok3-api
-virtualenv pyenv
-source pyenv/bin/activate
-pip install .
-```
-
-### 3. Obtain Cookie Values
-
-To use this client, you need to extract authentication cookies from a browser session:
-
-* Open grok.com in your browser.
-* Log in if you aren't already logged in.
-* Open the browser's developer tools (e.g., F12 or right-click > Inspect).
-* Go to the "Network" tab and filter for requests containing the new-chat endpoint (e.g., https://grok.com/rest/app-chat/conversations/new).
-* Right-click the request, select "Copy as cURL," and paste it somewhere.
-From the curl command, extract the following cookie values from the -H 'cookie: ...' header:
-    * x-anonuserid
-    * x-challenge
-    * x-signature
-    * sso
-    * sso-rw
-
-Example cookie string from a curl command:
-```
--H 'cookie: x-anonuserid=ffdd32e1; x-challenge=TkC4D...; x-signature=fJ0U00...; sso=eyJhbGci...; sso-rw=eyJhbGci...'
-```
-
-### 4. Use the Client
-
-Pass the extracted cookie values to the GrokClient and send a message:
-
-```
-from grok_client import GrokClient
-
-# Your cookie values
-cookies = {
-    "x-anonuserid": "ffdd32e1",
-    "x-challenge": "TkC4D..",
-    "x-signature": "fJ0...",
-    "sso": "ey...",
-    "sso-rw": "ey..."
-}
-
-# Initialize the client
-client = GrokClient(cookies)
-
-# Send a message and get response
-response = client.send_message("write a poem")
-print(response)
-```
-
-### 5. Optional: Add Memory with Mem0
-
-If you want Grok to remember conversations, you can integrate it with Mem0. Mem0 provides a memory layer for AI applications.
-
-#### 5.1 Install Mem0
-
+2. Create and activate a virtual environment (recommended):
 ```bash
-pip install mem0ai
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-#### 5.2 Add & Retrieve Memory
-
-```
-from mem0 import Memory
-
-memory = Memory()
-
-# for user alice
-result = memory.add("I like to take long walks on weekends.", user_id="alice")
-
-# Retrieve memories
-related_memories = memory.search(, user_id="alice")
-print(related_memories)
+3. Install dependencies:
+```bash
+pip install playwright
+playwright install chromium
 ```
 
+## Usage
 
-# Disclaimer
-This is an unofficial API client for Grok3 and is not affiliated with or endorsed by xAI, the creators of Grok. It relies on reverse-engineering browser requests and may break if the underlying API changes. Use at your own risk. The authors are not responsible for any consequences arising from its use, including but not limited to account suspension, data loss, or legal issues. Ensure you comply with Grok's terms of service and applicable laws when using this client
+### Command Line
+
+1. Start Chrome with remote debugging enabled:
+```bash
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
+```
+This cannot be run headless since you will need to click "Verify Human". When the browser opens, login to your Grok account and then run the script.
+
+2. Run the script directly:
+```bash
+python grok_chat.py --message "Your message here"
+```
+
+Optional arguments:
+- `--port`: Chrome remote debugging port (default: 9222)
+- `--message`: Message to send to Grok (required)
+
+### Python Client
+
+The `GrokClient` class provides an OpenAI-like interface that uses `grok_chat.py` under the hood:
+
+```python
+from grok_client import GrokClient, Message
+
+# Initialize client
+client = GrokClient(debug_port=9222)
+
+# One-shot completion
+response = client.chat_completion([
+    Message(role="user", content="Write a haiku about programming")
+])
+print(response.content)
+
+# Multiple messages
+messages = [
+    Message(role="user", content="What is Python?")
+]
+response = client.chat_completion(messages)
+print(response.content)
+
+messages.extend([
+    Message(role="assistant", content=response.content),
+    Message(role="user", content="What are its main features?")
+])
+response = client.chat_completion(messages)
+print(response.content)
+
+# Async support
+async def main():
+    response = await client.chat_completion_async(messages)
+    print(response.content)
+```
+
+Note: Currently, each message starts a new chat due to `grok_chat.py` limitations. Conversation history is maintained in the client but not sent to Grok.
+
+## How it Works
+
+1. The command-line script (`grok_chat.py`):
+   - Connects to your existing Chrome instance
+   - Finds or creates a Grok tab
+   - Starts a new chat
+   - Sends your message
+   - Waits for and captures the complete response
+   - Prints the formatted response
+
+2. The Python client (`grok_client.py`):
+   - Provides an OpenAI-like interface
+   - Uses `grok_chat.py` under the hood
+   - Manages message history
+   - Offers both sync and async APIs
+
+The client provides:
+- One-shot completions
+- Message history tracking (client-side)
+- OpenAI-compatible message format
+- Both sync and async interfaces
+
+## License
+
+MIT License - See LICENSE file for details

@@ -1,4 +1,3 @@
-from .client import GrokClient
+from .client import GrokClient, Message, GrokResponse
 
-__version__ = "0.1.0"
-__all__ = ['GrokClient']
+__all__ = ['GrokClient', 'Message', 'GrokResponse'] 

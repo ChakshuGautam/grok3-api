@@ -6,6 +6,15 @@ A simple Python client to interact with Grok using Playwright and an existing Ch
 
 https://github.com/user-attachments/assets/22b5e055-2a79-48c2-bf05-ce8d92ac049a
 
+## TODO
+
+- [ ] Add support for file uploads
+- [ ] Add support for streaming responses
+- [ ] Add support for DeepSearch mode
+- [ ] Add support for Think mode
+- [ ] Add support for other models
+- [ ] Formatting of reponses
+
 ## Requirements
 
 - Python 3.7+
@@ -88,28 +97,6 @@ async def main():
 ```
 
 Note: Currently, each message starts a new chat due to `grok_chat.py` limitations. Conversation history is maintained in the client but not sent to Grok.
-
-## How it Works
-
-1. The command-line script (`grok_chat.py`):
-   - Connects to your existing Chrome instance
-   - Finds or creates a Grok tab
-   - Starts a new chat
-   - Sends your message
-   - Waits for and captures the complete response
-   - Prints the formatted response
-
-2. The Python client (`grok_client.py`):
-   - Provides an OpenAI-like interface
-   - Uses `grok_chat.py` under the hood
-   - Manages message history
-   - Offers both sync and async APIs
-
-The client provides:
-- One-shot completions
-- Message history tracking (client-side)
-- OpenAI-compatible message format
-- Both sync and async interfaces
 
 ## License
 

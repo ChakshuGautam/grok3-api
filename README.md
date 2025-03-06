@@ -2,6 +2,10 @@
 
 A simple Python client to interact with Grok using Playwright and an existing Chrome instance. Provides both command-line usage and a Python client similar to OpenAI's interface.
 
+## Demo
+
+https://github.com/ChakshuGautam/grok-chat/grok-api.mp4
+
 ## Requirements
 
 - Python 3.7+

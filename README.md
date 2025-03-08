@@ -1,173 +1,114 @@
-# Grok API Client
+# Grok 3 API Client
 
-A Python package for interacting with the Grok API and parsing its responses.
+A Python client for interacting with Grok 3 via a Chrome browser with remote debugging.
 
-## Overview
+## Prerequisites
 
-This package provides a client for interacting with Grok via a Chrome browser instance, as well as utilities for parsing and processing Grok API responses.
+- Python 3.8 or higher
+- Google Chrome browser
+- `playwright` Python package (installed automatically with the project)
 
 ## Installation
 
-Clone the repository and install the dependencies:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/grok3-api.git
+   cd grok3-api
+   ```
+
+2. Create a virtual environment and install dependencies:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+## Quick Start
+
+### Step 1: Start Chrome with Remote Debugging Enabled
+
+First, start Chrome with remote debugging enabled using the provided script:
 
 ```bash
-git clone https://github.com/yourusername/grok3-api.git
-cd grok3-api
-pip install -r requirements.txt
+./start_chrome.sh
 ```
 
-## Package Structure
+This will open a new Chrome instance with remote debugging enabled on port 9222.
 
-```
-grok/               # Main package
-├── __init__.py     # Package initialization
-├── __main__.py     # Entry point for running as module
-├── chat.py         # Main Grok chat client
-├── cli.py          # Command-line interface
-├── client.py       # Higher-level client with OpenAI-like interface
-├── parser/         # Parser subpackage
-│   ├── __init__.py
-│   ├── response_parser.py    # Grok API response parser
-│   └── test_response_parser.py   # Unit tests for the parser
-└── examples/       # Examples subpackage
-    ├── __init__.py
-    ├── data/       # Example data files
-    └── test_parser.py  # Script to test parser with examples
-examples/           # Example scripts showing usage
-├── one_shot.py     # One-shot usage examples
-├── multi_shot.py   # Multi-turn conversation examples
-└── pdf_analysis.py # PDF analysis examples
-```
-
-## Usage
-
-### Using the CLI
-
-You can use the package as a command-line tool:
+If you want to use a different port:
 
 ```bash
-python -m grok --port 9222 --message "Your message to Grok"
+./start_chrome.sh --port 9223
 ```
 
-Common options:
-- `--port`: Chrome remote debugging port (default: 9222)
-- `--message`: Message to send to Grok (required)
-- `--new-chat`: Start a new chat
-- `--think-mode`: Enable Think mode
-- `--deep-search`: Enable DeepSearch mode
-- `--files`: Files to upload (can provide multiple)
-- `--debug`: Enable debug mode
-- `--save-api-response`: Save the raw API responses
-- `--export-content`: Export response content to a text file
-- `--log-level`: Set the logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL) (default: INFO)
+### Step 2: Log into Grok
 
-### Using the Chat Module
+In the Chrome browser that was opened, navigate to [web.grok.chat](https://web.grok.chat) and log in with your Grok credentials.
+
+### Step 3: Use the API client
+
+Now you can use the Grok API client in your Python code:
+
+```python
+from grok.client import GrokClient, Message
+
+# Initialize client (using the same port as in step 1)
+client = GrokClient(debug_port=9222)
+
+# Create a message
+message = Message(role="user", content="What is Python?")
+
+# Get response
+response = client.chat_completion([message])
+
+# Print the response
+print(response.content)
+```
+
+For async usage:
 
 ```python
 import asyncio
-from grok.chat import chat_with_grok
+from grok.client import GrokClient, Message
 
 async def main():
-    await chat_with_grok(
-        debug_port=9222,
-        message="Your message to Grok",
-        new_chat=True,
-        debug=True,
-        log_level="DEBUG"  # Set detailed logging for debugging
-    )
-
-if __name__ == "__main__":
-    asyncio.run(main())
-```
-
-### Using the Client (OpenAI-like Interface)
-
-The client provides a more convenient, OpenAI-like interface:
-
-```python
-import asyncio
-from grok.client import GrokClient, Message, FileAttachment
-
-async def main():
-    # Initialize the client with a specific log level
-    client = GrokClient(debug_port=9222, log_level="INFO")
+    # Initialize client
+    client = GrokClient()
     
-    # Simple query
-    response = await client.chat_completion_async([
-        Message(role="user", content="What is Python?")
-    ])
+    # Create a message
+    message = Message(role="user", content="What is Python?")
+    
+    # Get response
+    response = await client.chat_completion_async([message])
+    
+    # Print the response
     print(response.content)
-    
-    # With special modes and a different log level for this specific request
-    response = await client.chat_completion_async(
-        [
-            Message(
-                role="user", 
-                content="Analyze the pros and cons of Python vs. JavaScript",
-                think_mode=True,  # Enable Think mode
-                deep_search=True  # Enable DeepSearch (web search)
-            )
-        ],
-        log_level="DEBUG"  # Override log level for this request only
-    )
-    
-    # With file attachment
-    response = await client.chat_completion_async([
-        Message(
-            role="user",
-            content="What is this file about?",
-            attachments=[FileAttachment("path/to/file.pdf")]
-        )
-    ])
 
-if __name__ == "__main__":
-    asyncio.run(main())
+asyncio.run(main())
 ```
 
-## Example Scripts
+## Examples
 
-The `examples/` directory contains ready-to-use example scripts:
+Check the `examples` directory for more usage examples:
 
-- **one_shot.py**: Basic one-shot queries to Grok
-- **multi_shot.py**: Multi-turn conversation with context
-- **pdf_analysis.py**: PDF document analysis
+- `basic.py`: Simple chat completion example
+- `streaming.py`: Streaming response example
+- `multi_shot.py`: Maintaining conversation context (multi-turn)
+- `file_upload.py`: Uploading files to Grok
 
-Run them with:
+## Error Troubleshooting
 
-```bash
-python examples/one_shot.py
+If you see an error like:
+
+```
+RuntimeError: Chat module failed with return code 1. Chrome is not running with remote debugging enabled.
 ```
 
-See the [examples README](examples/README.md) for more details.
+Make sure:
+1. Chrome is running with remote debugging enabled (run `./start_chrome.sh`)
+2. You're using the correct debugging port 
+3. You're logged into Grok in the Chrome browser
 
-## API Response Parser
+## Contributing
 
-The parser can handle two types of Grok API responses:
-
-1. **Standard responses**: Single JSON objects
-2. **Streaming responses**: Multiple concatenated JSON objects, each containing a token
-
-### Features
-
-- Robust parsing of streaming responses
-- Token accumulation for complete text
-- Detection of response completion
-- Extraction of relevant metadata
-
-## Running Tests
-
-Run the parser tests:
-
-```bash
-python -m grok.parser.test_response_parser
-```
-
-Test with example files:
-
-```bash
-python -m grok.examples.test_parser
-```
-
-## License
-
-[MIT](LICENSE)
+Contributions are welcome! Please feel free to submit a Pull Request.

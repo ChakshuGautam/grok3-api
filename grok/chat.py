@@ -598,6 +598,8 @@ async def chat_with_grok(
     stream: bool = False
 ):
     # Configure logging based on debug mode and log_level
+    print("Configuring logging")
+    
     log_levels = {
         "DEBUG": logging.DEBUG,
         "INFO": logging.INFO,
@@ -641,6 +643,7 @@ async def chat_with_grok(
     
     async with async_playwright() as p:
         try:
+            print("Starting Playwright session")
             logger.debug("Starting Playwright session")
             # Connect to existing Chrome instance
             logger.info(f"Connecting to Chrome on port {debug_port}...")
@@ -702,7 +705,8 @@ async def chat_with_grok(
                 logger.info("Starting new chat...")
                 try:
                     # Check if already in new chat (input area is visible)
-                    input_visible = await grok_page.is_visible('div[data-testid="chat-composer"]')
+                    # input_visible = await grok_page.is_visible('div[data-testid="chat-composer"]')
+                    input_visible = await grok_page.is_visible('textarea[aria-label="Ask Grok anything"]')
                     if not input_visible:
                         # Look for new chat button and click it
                         new_chat_button = await grok_page.wait_for_selector('a[href="/chat"]', timeout=SELECTOR_TIMEOUT)

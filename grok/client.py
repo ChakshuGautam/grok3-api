@@ -106,6 +106,8 @@ class GrokClient:
             if files:
                 cmd.append('--files')
                 cmd.extend([str(f) for f in files])
+            
+            logger.info(f"Executing command: {' '.join(cmd)}")
                 
             # Create process with line buffering
             process = await asyncio.create_subprocess_exec(
@@ -117,6 +119,7 @@ class GrokClient:
             
             # For non-streaming mode, collect full output
             full_output = []
+            error_output = []
             api_response_data = {}
             
             # Read stdout and stderr concurrently
@@ -128,6 +131,7 @@ class GrokClient:
                     line = line.decode().rstrip()
                     if is_stderr:
                         logger.warning(f"stderr: {line}")
+                        error_output.append(line)
                     else:
                         # Store stdout for later parsing
                         full_output.append(line)
@@ -155,7 +159,19 @@ class GrokClient:
             
             if process.returncode != 0:
                 error_msg = f"Chat module failed with return code {process.returncode}"
-                raise RuntimeError(error_msg)
+                detailed_error = "\n".join(error_output)
+                logger.error(f"Error details:\n{detailed_error}")
+                
+                # Check for common chrome error patterns
+                if any("Failed to connect to Chrome" in line for line in error_output) or \
+                   any("Connection refused" in line for line in error_output) or \
+                   any("connect_over_cdp" in line for line in error_output):
+                    raise RuntimeError(f"{error_msg}. Chrome is not running with remote debugging enabled. "
+                                      f"Please start Chrome with: "
+                                      f"'chrome --remote-debugging-port={self.debug_port}' or "
+                                      f"'/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --remote-debugging-port={self.debug_port}'")
+                else:
+                    raise RuntimeError(f"{error_msg}. Error details: {detailed_error}")
 
             logger.info("Successfully ran chat")
             
@@ -222,6 +238,8 @@ class GrokClient:
                 cmd.append('--files')
                 cmd.extend([str(f) for f in files])
 
+            logger.info(f"Executing command: {' '.join(cmd)}")
+
             # Create process with line buffering
             process = await asyncio.create_subprocess_exec(
                 *cmd,
@@ -235,6 +253,7 @@ class GrokClient:
             is_complete = False
             is_thinking = False
             is_soft_stop = False
+            error_output = []
             
             while True:
                 line = await process.stdout.readline()
@@ -275,14 +294,28 @@ class GrokClient:
                 line = await process.stderr.readline()
                 if not line:
                     break
-                logger.warning(f"stderr: {line.decode().rstrip()}")
+                decoded_line = line.decode().rstrip()
+                logger.warning(f"stderr: {decoded_line}")
+                error_output.append(decoded_line)
             
             # Wait for process to complete
             await process.wait()
             
             if process.returncode != 0:
                 error_msg = f"Chat module failed with return code {process.returncode}"
-                raise RuntimeError(error_msg)
+                detailed_error = "\n".join(error_output)
+                logger.error(f"Error details:\n{detailed_error}")
+                
+                # Check for common chrome error patterns
+                if any("Failed to connect to Chrome" in line for line in error_output) or \
+                   any("Connection refused" in line for line in error_output) or \
+                   any("connect_over_cdp" in line for line in error_output):
+                    raise RuntimeError(f"{error_msg}. Chrome is not running with remote debugging enabled. "
+                                      f"Please start Chrome with: "
+                                      f"'chrome --remote-debugging-port={self.debug_port}' or "
+                                      f"'/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --remote-debugging-port={self.debug_port}'")
+                else:
+                    raise RuntimeError(f"{error_msg}. Error details: {detailed_error}")
         
         except Exception as e:
             logger.error(f"Error running chat stream: {str(e)}")

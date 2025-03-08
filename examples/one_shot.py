@@ -14,7 +14,7 @@ from grok.client import GrokClient, Message
 
 async def main():
     # Initialize client with debug logging
-    client = GrokClient(log_level="ERROR")  # Set default log level here
+    client = GrokClient(log_level="DEBUG")  # Set default log level here
     
     print("Running with default log level (ERROR)...")
     
@@ -25,28 +25,28 @@ async def main():
     print("\nHaiku about coding:")
     print(response.content)
 
-    # Example with different log level for a specific request
-    print("\nRunning with DEBUG log level for this request only...")
-    response = await client.chat_completion_async(
-        [Message(role="user", content="What is Python used for?")],
-        log_level="DEBUG"  # Override log level for this request only
-    )
-    print("\nPython use cases:")
-    print(response.content)
+    # # Example with different log level for a specific request
+    # print("\nRunning with DEBUG log level for this request only...")
+    # response = await client.chat_completion_async(
+    #     [Message(role="user", content="What is Python used for?")],
+    #     log_level="DEBUG"  # Override log level for this request only
+    # )
+    # print("\nPython use cases:")
+    # print(response.content)
 
-    # Example 2: Explain a concept
-    response = await client.chat_completion_async([
-        Message(role="user", content="Explain quantum computing in one paragraph")
-    ])
-    print("\nQuantum computing explanation:")
-    print(response.content)
+    # # Example 2: Explain a concept
+    # response = await client.chat_completion_async([
+    #     Message(role="user", content="Explain quantum computing in one paragraph")
+    # ])
+    # print("\nQuantum computing explanation:")
+    # print(response.content)
 
-    # Example 3: Solve a problem
-    response = await client.chat_completion_async([
-        Message(role="user", content="What's the fastest way to sort a million integers in Python?")
-    ])
-    print("\nSorting solution:")
-    print(response.content)
+    # # Example 3: Solve a problem
+    # response = await client.chat_completion_async([
+    #     Message(role="user", content="What's the fastest way to sort a million integers in Python?")
+    # ])
+    # print("\nSorting solution:")
+    # print(response.content)
 
 if __name__ == "__main__":
     asyncio.run(main()) 

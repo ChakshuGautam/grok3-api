@@ -16,12 +16,17 @@ class GrokResponseParser:
         self.accumulated_tokens: List[str] = []
         self.response_id: Optional[str] = None
         self.is_complete: bool = False
+        self.streaming_mode: bool = False
     
     def reset(self):
         """Reset the parser state."""
         self.accumulated_tokens = []
         self.response_id = None
         self.is_complete = False
+    
+    def enable_streaming_mode(self):
+        """Enable streaming mode for the parser"""
+        self.streaming_mode = True
     
     def parse_response(self, response_text: str) -> Dict[str, Any]:
         """

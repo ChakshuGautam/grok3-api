@@ -1,11 +1,14 @@
 from typing import List, Optional, Union, Dict, Any
 import asyncio
-import subprocess
 import os
 import logging
 from dataclasses import dataclass
 from pathlib import Path
 import sys
+import tempfile
+
+# Import chat module directly
+from .chat import chat_with_grok, ApiResponseTracker
 
 # Set up logging with console handler
 logger = logging.getLogger(__name__)
@@ -78,135 +81,59 @@ class GrokClient:
         self.debug_port = debug_port
         self.debug_mode = debug_mode
         self.log_level = log_level
-        # The script is now the module, so we'll use the module path
-        self._module_name = "grok.chat"
-        logger.info(f"Using grok.chat module for communication")
+        logger.info(f"Using direct chat module communication")
 
     async def _run_grok_chat_nonstream(self, message: str, new_chat: bool = False, think_mode: bool = False, deep_search: bool = False, files: List[Path] = None) -> GrokResponse:
         """Run grok chat module with the given message in non-streaming mode."""
         logger.info(f"Running chat with message: {message} (new_chat: {new_chat}, think_mode: {think_mode}, deep_search: {deep_search}, files: {files})")
         
         try:
-            # Build command to run the module directly
-            cmd = [
-                sys.executable, '-m', self._module_name,
-                '--port', str(self.debug_port),
-                '--message', message,
-                '--log-level', self.log_level,
-                '--save-api-response'  # Always save API response for metadata
-            ]
-            if new_chat:
-                cmd.append('--new-chat')
-            if think_mode:
-                cmd.append('--think-mode')
-            if deep_search:
-                cmd.append('--deep-search')
+            # Create a temp file to capture output if needed
+            temp_output_file = None
             if self.debug_mode:
-                cmd.append('--debug')
-            if files:
-                cmd.append('--files')
-                cmd.extend([str(f) for f in files])
+                temp_output_file = tempfile.NamedTemporaryFile(delete=False, suffix='.json')
+                logger.info(f"Debug mode enabled, will save API response to {temp_output_file.name}")
             
-            logger.info(f"Executing command: {' '.join(cmd)}")
-                
-            # Create process with line buffering
-            process = await asyncio.create_subprocess_exec(
-                *cmd,
-                stdout=asyncio.subprocess.PIPE,
-                stderr=asyncio.subprocess.PIPE,
-                env={**os.environ, 'PYTHONUNBUFFERED': '1'}  # Force Python to be unbuffered
+            # Call chat_with_grok directly
+            api_tracker = ApiResponseTracker()
+            
+            # Use the chat_with_grok function directly
+            await chat_with_grok(
+                debug_port=self.debug_port,
+                message=message,
+                new_chat=new_chat,
+                think_mode=think_mode,
+                deep_search=deep_search,
+                files=files,
+                debug=self.debug_mode,
+                save_api_response=True,
+                export_content=False,
+                log_level=self.log_level,
+                stream=False,
+                api_tracker=api_tracker  # Pass the API tracker
             )
             
-            # For non-streaming mode, collect full output
-            full_output = []
-            error_output = []
-            api_response_data = {}
+            # Check if we have a response
+            if not api_tracker.is_response_complete():
+                logger.warning("Response is not complete")
             
-            # Read stdout and stderr concurrently
-            async def read_stream(stream, is_stderr=False):
-                while True:
-                    line = await stream.readline()
-                    if not line:
-                        break
-                    line = line.decode().rstrip()
-                    if is_stderr:
-                        logger.warning(f"stderr: {line}")
-                        error_output.append(line)
-                    else:
-                        # Store stdout for later parsing
-                        full_output.append(line)
-                        # Check for API response data
-                        if line.startswith("API Response Data:"):
-                            # Parse API response data
-                            api_data_start = full_output.index(line)
-                            for i in range(api_data_start + 1, len(full_output)):
-                                data_line = full_output[i]
-                                if data_line.startswith("  "):  # API response field
-                                    try:
-                                        key, value = data_line.strip().split(": ", 1)
-                                        api_response_data[key] = value
-                                    except ValueError:
-                                        continue
-
-            # Read both streams concurrently
-            await asyncio.gather(
-                read_stream(process.stdout),
-                read_stream(process.stderr, True)
+            # Extract the response content
+            content = api_tracker.extract_content_text()
+            
+            # Get the metadata
+            response_fields = api_tracker.get_response_fields()
+            
+            logger.info(f"Successfully received chat response of length: {len(content)}")
+            
+            # Return the response
+            return GrokResponse(
+                content=content,
+                is_streaming=False,
+                is_complete=response_fields.get('is_complete', True),
+                response_id=response_fields.get('response_id'),
+                is_thinking=response_fields.get('is_thinking', False),
+                is_soft_stop=response_fields.get('is_soft_stop', False)
             )
-            
-            # Wait for process to complete
-            await process.wait()
-            
-            if process.returncode != 0:
-                error_msg = f"Chat module failed with return code {process.returncode}"
-                detailed_error = "\n".join(error_output)
-                logger.error(f"Error details:\n{detailed_error}")
-                
-                # Check for common chrome error patterns
-                if any("Failed to connect to Chrome" in line for line in error_output) or \
-                   any("Connection refused" in line for line in error_output) or \
-                   any("connect_over_cdp" in line for line in error_output):
-                    raise RuntimeError(f"{error_msg}. Chrome is not running with remote debugging enabled. "
-                                      f"Please start Chrome with: "
-                                      f"'chrome --remote-debugging-port={self.debug_port}' or "
-                                      f"'/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --remote-debugging-port={self.debug_port}'")
-                else:
-                    raise RuntimeError(f"{error_msg}. Error details: {detailed_error}")
-
-            logger.info("Successfully ran chat")
-            
-            # Parse the output to extract Grok's response
-            output = '\n'.join(full_output)
-            try:
-                # Find the response between the marker lines
-                start_marker = "-" * 50 + "\n"
-                end_marker = "\n" + "-" * 50
-                response_start = output.index(start_marker) + len(start_marker)
-                response_end = output.index(end_marker)
-                response = output[response_start:response_end].strip()
-                logger.info(f"Extracted response of length: {len(response)}")
-                
-                # Return complete response
-                return GrokResponse(
-                    content=response,
-                    is_streaming=False,
-                    is_complete=api_response_data.get('is_complete', 'True') == 'True',
-                    response_id=api_response_data.get('response_id'),
-                    is_thinking=api_response_data.get('is_thinking', 'False') == 'True',
-                    is_soft_stop=api_response_data.get('is_soft_stop', 'False') == 'True'
-                )
-            except ValueError:
-                # If markers not found, log the full output and return it
-                logger.warning("Could not find response markers, returning full output")
-                logger.debug(f"Full output: {output}")
-                return GrokResponse(
-                    content=output.strip(),
-                    is_streaming=False,
-                    is_complete=True,
-                    response_id=None,
-                    is_thinking=False,
-                    is_soft_stop=False
-                )
 
         except Exception as e:
             logger.error(f"Error running chat: {str(e)}")
@@ -217,105 +144,78 @@ class GrokClient:
         logger.info(f"Running chat stream with message: {message} (new_chat: {new_chat}, think_mode: {think_mode}, deep_search: {deep_search}, files: {files})")
         
         try:
-            # Build command to run the module directly
-            cmd = [
-                sys.executable, '-m', self._module_name,
-                '--port', str(self.debug_port),
-                '--message', message,
-                '--log-level', self.log_level,
-                '--save-api-response',  # Always save API response for metadata
-                '--stream'  # Always include stream flag for this method
-            ]
-            if new_chat:
-                cmd.append('--new-chat')
-            if think_mode:
-                cmd.append('--think-mode')
-            if deep_search:
-                cmd.append('--deep-search')
-            if self.debug_mode:
-                cmd.append('--debug')
-            if files:
-                cmd.append('--files')
-                cmd.extend([str(f) for f in files])
-
-            logger.info(f"Executing command: {' '.join(cmd)}")
-
-            # Create process with line buffering
-            process = await asyncio.create_subprocess_exec(
-                *cmd,
-                stdout=asyncio.subprocess.PIPE,
-                stderr=asyncio.subprocess.PIPE,
-                env={**os.environ, 'PYTHONUNBUFFERED': '1'}  # Force Python to be unbuffered
+            # Create a shared API tracker
+            api_tracker = ApiResponseTracker()
+            api_tracker.enable_streaming()  # Enable streaming mode
+            
+            # Start a background task to run the chat
+            chat_task = asyncio.create_task(
+                chat_with_grok(
+                    debug_port=self.debug_port,
+                    message=message,
+                    new_chat=new_chat,
+                    think_mode=think_mode,
+                    deep_search=deep_search,
+                    files=files,
+                    debug=self.debug_mode,
+                    save_api_response=True,
+                    export_content=False,
+                    log_level=self.log_level,
+                    stream=True,
+                    api_tracker=api_tracker  # Pass the API tracker
+                )
             )
-
-            # For streaming mode, yield tokens as they arrive
+            
+            # Now yield tokens as they're received
+            previous_length = 0
             response_id = None
-            is_complete = False
-            is_thinking = False
-            is_soft_stop = False
-            error_output = []
             
-            while True:
-                line = await process.stdout.readline()
-                if not line:
-                    break
+            # Keep yielding until the response is complete or chat_task is done
+            while not api_tracker.is_response_complete() and not chat_task.done():
+                # Get the current accumulated text
+                accumulated_text = api_tracker.parser.get_accumulated_text()
+                
+                # Extract new tokens
+                if len(accumulated_text) > previous_length:
+                    new_token = accumulated_text[previous_length:]
+                    previous_length = len(accumulated_text)
                     
-                line = line.decode().rstrip()
+                    # Get the metadata
+                    response_fields = api_tracker.get_response_fields()
+                    response_id = response_fields.get('response_id')
+                    
+                    # Yield the new token
+                    yield GrokStreamResponse(
+                        token=new_token,
+                        is_complete=response_fields.get('is_complete', False),
+                        response_id=response_id,
+                        is_thinking=response_fields.get('is_thinking', False),
+                        is_soft_stop=response_fields.get('is_soft_stop', False)
+                    )
                 
-                # Check for API response data
-                if line.startswith("API Response Data:"):
-                    continue
-                elif line.startswith("  "):  # API response field
-                    try:
-                        key, value = line.strip().split(": ", 1)
-                        if key == "response_id":
-                            response_id = value
-                        elif key == "is_complete":
-                            is_complete = value == "True"
-                        elif key == "is_thinking":
-                            is_thinking = value == "True"
-                        elif key == "is_soft_stop":
-                            is_soft_stop = value == "True"
-                    except ValueError:
-                        continue
-                else:
-                    # Check if this is a response token
-                    if line and not line.startswith("-" * 50):
-                        yield GrokStreamResponse(
-                            token=line,
-                            is_complete=is_complete,
-                            response_id=response_id,
-                            is_thinking=is_thinking,
-                            is_soft_stop=is_soft_stop
-                        )
+                # Small sleep to avoid CPU spinning
+                await asyncio.sleep(0.1)
             
-            # Read any remaining stderr
-            while True:
-                line = await process.stderr.readline()
-                if not line:
-                    break
-                decoded_line = line.decode().rstrip()
-                logger.warning(f"stderr: {decoded_line}")
-                error_output.append(decoded_line)
-            
-            # Wait for process to complete
-            await process.wait()
-            
-            if process.returncode != 0:
-                error_msg = f"Chat module failed with return code {process.returncode}"
-                detailed_error = "\n".join(error_output)
-                logger.error(f"Error details:\n{detailed_error}")
+            # Final check for any remaining content
+            accumulated_text = api_tracker.parser.get_accumulated_text()
+            if len(accumulated_text) > previous_length:
+                new_token = accumulated_text[previous_length:]
+                response_fields = api_tracker.get_response_fields()
                 
-                # Check for common chrome error patterns
-                if any("Failed to connect to Chrome" in line for line in error_output) or \
-                   any("Connection refused" in line for line in error_output) or \
-                   any("connect_over_cdp" in line for line in error_output):
-                    raise RuntimeError(f"{error_msg}. Chrome is not running with remote debugging enabled. "
-                                      f"Please start Chrome with: "
-                                      f"'chrome --remote-debugging-port={self.debug_port}' or "
-                                      f"'/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --remote-debugging-port={self.debug_port}'")
-                else:
-                    raise RuntimeError(f"{error_msg}. Error details: {detailed_error}")
+                yield GrokStreamResponse(
+                    token=new_token,
+                    is_complete=True,
+                    response_id=response_id,
+                    is_thinking=response_fields.get('is_thinking', False),
+                    is_soft_stop=response_fields.get('is_soft_stop', False)
+                )
+            
+            # Ensure the chat task completes
+            try:
+                await chat_task
+            except Exception as e:
+                logger.error(f"Chat task error: {str(e)}")
+                raise
         
         except Exception as e:
             logger.error(f"Error running chat stream: {str(e)}")

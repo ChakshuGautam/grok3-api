@@ -82,7 +82,7 @@ class ApiResponseTracker:
         self.token_timeout = 3.0  # Consider stream complete if no tokens for 3 seconds
         self.pending_requests: Dict[str, bool] = {}  # Track active request URLs
         self.is_new_conversation: bool = False
-        self.streaming_enabled = False
+        self._streaming_enabled = False
         
         # Log what we're tracking
         logger.info("Initializing API response tracker")
@@ -90,10 +90,15 @@ class ApiResponseTracker:
         logger.info(f"Tracking response API pattern: {API_PATTERNS[1]}")
         logger.info(f"Token timeout set to: {self.token_timeout} seconds")
     
+    @property
+    def streaming_enabled(self):
+        """Check if streaming mode is enabled"""
+        return self._streaming_enabled
+    
     def enable_streaming(self):
-        """Enable real-time token streaming mode."""
-        self.streaming_enabled = True
-        logger.info("Real-time token streaming enabled")
+        """Enable streaming mode for the response tracker"""
+        self._streaming_enabled = True
+        self.parser.enable_streaming_mode()
     
     def extract_conversation_id(self, url: str) -> Optional[str]:
         # For regular responses
@@ -595,7 +600,8 @@ async def chat_with_grok(
     save_api_response: bool = False, 
     export_content: bool = False,
     log_level: str = "INFO",
-    stream: bool = False
+    stream: bool = False,
+    api_tracker: ApiResponseTracker = None
 ):
     # Configure logging based on debug mode and log_level
     print("Configuring logging")
@@ -633,11 +639,12 @@ async def chat_with_grok(
         # Clear debug directory
         clear_debug_dir()
     
-    # Create API tracker
-    api_tracker = ApiResponseTracker()
+    # Create API tracker if not provided
+    if api_tracker is None:
+        api_tracker = ApiResponseTracker()
     
     # Enable streaming mode if requested
-    if stream:
+    if stream and not api_tracker.streaming_enabled:
         logger.info("Enabling streaming mode")
         api_tracker.enable_streaming()
     
@@ -914,7 +921,8 @@ async def chat_with_grok(
                 if deep_search:
                     logger.info("Enabling DeepSearch mode...")
                     try:
-                        deep_search_toggle = await grok_page.wait_for_selector('button[aria-label*="DeepSearch"]', timeout=5000)
+                        deep_search_toggle = await grok_page.wait_for_selector('button span:text("DeepSearch")', timeout=5000)
+                        # deep_search_toggle = await grok_page.wait_for_selector('button[aria-label*="DeepSearch"]', timeout=5000)
                         if deep_search_toggle:
                             await deep_search_toggle.click()
                             logger.info("DeepSearch mode enabled")

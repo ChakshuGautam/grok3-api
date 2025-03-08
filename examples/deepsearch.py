@@ -15,7 +15,7 @@ from grok.client import GrokClient, Message
 async def test_current_events():
     """Test deep search with current events query."""
     print("\n*** Testing Deep Search: Who is the president of the United States? ***")
-    client = GrokClient(log_level="DEBUG")
+    client = GrokClient(log_level="DEBUG", debug_mode=True)
     
     print("Querying about recent developments...")
     response = await client.chat_completion_async([
@@ -75,11 +75,11 @@ async def main():
     # Test current events search
     await test_current_events()
     
-    # Test technical research
-    await test_technical_research()
+    # # Test technical research
+    # await test_technical_research()
     
-    # Test combined search with think mode
-    await test_combined_search()
+    # # Test combined search with think mode
+    # await test_combined_search()
     
     print("\nAll deep search examples completed!")
 

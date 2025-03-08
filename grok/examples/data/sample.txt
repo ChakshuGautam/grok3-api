@@ -1,0 +1,52 @@
+{
+    "result": {
+        "userResponse": {
+            "responseId": "2517e0bf-efd0-4a94-b396-e514dbdd4917",
+            "message": "What are some real-world applications built with Python?",
+            "sender": "human",
+            "createTime": "2025-03-06T11:40:33.571871947Z",
+            "parentResponseId": "8a60082c-d206-4102-a2c2-1781ba06345b",
+            "manual": false,
+            "partial": false,
+            "shared": false
+        },
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "2517e0bf-efd0-4a94-b396-e514dbdd4917"
+    }
+}{
+    "result": {
+        "token": "Python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "beb2b7f8-8ae4-44ae-8613-1b0865b98513"
+    }
+}{
+    "result": {
+        "token": "'s",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "beb2b7f8-8ae4-44ae-8613-1b0865b98513"
+    }
+}{
+    "result": {
+        "token": " versatility",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "beb2b7f8-8ae4-44ae-8613-1b0865b98513"
+    }
+}{
+    "result": {
+        "token": " and",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "beb2b7f8-8ae4-44ae-8613-1b0865b98513"
+    }
+}{
+    "result": {
+        "token": " simplicity",
+        "isThinking": false,
+        "isSoftStop": true,
+        "responseId": "beb2b7f8-8ae4-44ae-8613-1b0865b98513"
+    }
+} 

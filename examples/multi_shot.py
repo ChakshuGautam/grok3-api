@@ -9,7 +9,7 @@ import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import asyncio
-from grok_client import GrokClient, Message
+from grok.client import GrokClient, Message
 
 async def main():
     # Initialize client
@@ -21,7 +21,7 @@ async def main():
     ]
     
     # Get first response (start new chat)
-    response = await client.chat_completion_async(messages, new_chat=True)
+    response = await client.chat_completion_async(messages, new_chat=True, log_level="DEBUG")
     print("\nQuestion: What is Python?")
     print("Response:", response.content)
 
@@ -32,7 +32,7 @@ async def main():
     ])
     
     # Get second response (continue in same chat)
-    response = await client.chat_completion_async(messages, new_chat=False)
+    response = await client.chat_completion_async(messages, new_chat=False, log_level="DEBUG")
     print("\nQuestion: What makes it different from other programming languages?")
     print("Response:", response.content)
 
@@ -43,7 +43,7 @@ async def main():
     ])
     
     # Get third response (continue in same chat)
-    response = await client.chat_completion_async(messages, new_chat=False)
+    response = await client.chat_completion_async(messages, new_chat=False, log_level="DEBUG")
     print("\nQuestion: Can you give me an example of Python's simplicity?")
     print("Response:", response.content)
 
@@ -54,7 +54,7 @@ async def main():
     ])
     
     # Get final response (continue in same chat)
-    response = await client.chat_completion_async(messages, new_chat=False)
+    response = await client.chat_completion_async(messages, new_chat=False, log_level="DEBUG")
     print("\nQuestion: What are some real-world applications built with Python?")
     print("Response:", response.content)
 

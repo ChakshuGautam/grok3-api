@@ -1,0 +1,4941 @@
+{
+    "result": {
+        "userResponse": {
+            "responseId": "d8985490-0980-4b6a-b5ff-c86c8e81cf7c",
+            "message": "Can you give me an example of Python's simplicity?",
+            "sender": "human",
+            "createTime": "2025-03-06T11:57:11.086425944Z",
+            "parentResponseId": "f1e44670-92aa-4500-a587-671d10d7a5cd",
+            "manual": false,
+            "partial": false,
+            "shared": false,
+            "query": "",
+            "queryType": "",
+            "webSearchResults": [],
+            "xpostIds": [],
+            "xposts": [],
+            "generatedImageUrls": [],
+            "imageAttachments": [],
+            "fileAttachments": [],
+            "cardAttachmentsJson": [],
+            "fileUris": [],
+            "fileAttachmentsMetadata": [],
+            "isControl": false,
+            "steps": [],
+            "mediaTypes": []
+        },
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "d8985490-0980-4b6a-b5ff-c86c8e81cf7c"
+    }
+}{
+    "result": {
+        "token": "Absolutely",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "!",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "’s",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " simplicity",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " shines",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " in",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " how",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " it",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " reduces",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " complexity",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " while",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " remaining",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " expressive",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Let",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "’s",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " compare",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " a",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " common",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " task",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "—",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "re",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "vers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "ing",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " a",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " list",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " of",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " numbers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "—in",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " versus",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " a",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " language",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " like",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " C",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " to",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " highlight",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " this",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "---",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "###",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Task",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ":",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Reverse",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " a",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " List",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " of",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Numbers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "####",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "In",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " C",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " (",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "More",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Complex",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ")",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "C",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " requires",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " manual",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " memory",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " management",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " explicit",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " loops",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " and",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " more",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " lines",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " of",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " code",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ":",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "```",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "c",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "#include",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " \u003c",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "stdio",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".h",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\u003e",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "void",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " reverse",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "(int",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " arr",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "[],",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " int",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " size",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ")",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " {",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "   ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " int",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " start",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " =",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 0",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ";",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "   ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " int",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " end",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " =",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " size",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " -",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 1",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ";",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "   ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " while",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " (",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "start",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " \u003c",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " end",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ")",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " {",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "       ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " int",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " temp",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " =",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " arr",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "[start",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "];",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "       ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " arr",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "[start",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "]",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " =",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " arr",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "[end",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "];",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "       ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " arr",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "[end",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "]",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " =",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " temp",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ";",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "       ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " start",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "++;",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "       ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " end",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "--;",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "   ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " }",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "}",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "int",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " main",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "()",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " {",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "   ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " int",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " numbers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "[]",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " =",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " {",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "1",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 2",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 3",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 4",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 5",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "};",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "   ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " int",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " size",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " =",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 5",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ";",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "    ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "   ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " reverse",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "(numbers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " size",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ");",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "    ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "   ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " for",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " (",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "int",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " i",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " =",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 0",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ";",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " i",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " \u003c",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " size",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ";",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " i",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "++)",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " {",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "       ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " printf",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "(\"%",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "d",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " \",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " numbers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "[i",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "]);",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "   ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " }",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "   ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " printf",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "(\"\\",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\");",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "   ",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " return",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 0",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ";",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "}",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "```",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "-",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Output",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**:",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " `",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "5",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 4",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 3",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 2",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 1",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "`",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "-",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Why",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " It",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "’s",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Complex",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**:",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " You",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " need",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " to",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " manage",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " array",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " indices",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " swap",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " elements",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " manually",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " and",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " write",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " a",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " separate",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " loop",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " to",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " print",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " the",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " result",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Plus",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " there",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "’s",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " boiler",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "plate",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " like",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " `",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "main",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "()`",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " and",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " `",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "printf",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "`.",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "---",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "####",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "In",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " (",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Simple",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ")",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " handles",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " this",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " in",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " just",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " one",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " or",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " two",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " lines",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ":",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "```",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "numbers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " =",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " [",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "1",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 2",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 3",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 4",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 5",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "]",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "numbers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".reverse",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "()",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "print",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "(numbers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ")",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "```",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "-",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Output",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**:",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " `[",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "5",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 4",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 3",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 2",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 1",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "]",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "`",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "-",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Why",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " It",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "’s",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Simple",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**:",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "’s",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " built",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "-in",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " `",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "reverse",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "()`",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " method",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " does",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " the",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " work",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " for",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " you",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " No",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " manual",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " swapping",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " no",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " explicit",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " loops",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " no",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " memory",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " management",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "—just",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " a",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " clear",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " readable",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " command",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "---",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "####",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Even",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Sim",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "pler",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Alternative",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " in",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " offers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " multiple",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " ways",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " to",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " achieve",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " this",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " like",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " using",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " slicing",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ":",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "```",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "numbers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " =",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " [",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "1",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 2",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 3",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 4",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 5",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "]",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "print",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "(numbers",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "[::-",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "1",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "])",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "```",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "-",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Output",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**:",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " `[",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "5",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 4",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 3",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 2",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " 1",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "]",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "`",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "-",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Why",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " It",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "’s",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Simple",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**:",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " The",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " `[",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "::-",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "1",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "]`",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " syntax",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " is",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " a",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " concise",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " idi",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "omatic",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " way",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " to",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " reverse",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " a",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " list",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " It",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "’s",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " intuitive",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " once",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " you",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " learn",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " it",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " and",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " requires",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " no",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " extra",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " function",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " calls",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "---",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "###",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " What",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Makes",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " This",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Simple",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "?",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "1",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Built",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "-in",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Methods",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**:",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "’s",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " standard",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " library",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " includes",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " `",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "reverse",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "()`,",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " sparing",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " you",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " from",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " writing",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " logic",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " from",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " scratch",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "2",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "No",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Boiler",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "plate",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**:",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " No",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " need",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " for",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " `",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "main",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "()`,",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " type",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " declarations",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ",",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " or",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " manual",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " memory",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " allocation",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "3",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Readable",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Syntax",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**:",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Ind",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "entation",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " and",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " minimal",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " punctuation",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " make",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " the",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " code",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " look",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " like",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " pseud",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "ocode",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "4",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " **",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "Flex",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "ibility",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "**:",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " You",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " can",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " choose",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " a",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " method",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " (`",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "reverse",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "()",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "`)",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " or",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " a",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " one",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "-l",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "iner",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " (`",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "[::-",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "1",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "]`",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "),",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " both",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " straightforward",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "\n",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "This",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " simplicity",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " is",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " why",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Python",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " is",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " often",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " the",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " go",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "-to",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " for",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " beginners",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " and",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " pros",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " alike",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "—it",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " lets",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " you",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " focus",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " on",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " solving",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " problems",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " rather",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " than",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " wrestling",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " with",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " the",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " language",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": ".",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " Want",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " another",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " example",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " with",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " a",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " different",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": " task",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "?",
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "token": "",
+        "isThinking": false,
+        "isSoftStop": true,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "finalMetadata": {
+            "followUpSuggestions": [
+                {
+                    "properties": {
+                        "messageType": "TEXT",
+                        "followUpType": "DIVE_DEEPER"
+                    },
+                    "label": "Explain list comprehensions",
+                    "toolOverrides": {}
+                },
+                {
+                    "properties": {
+                        "messageType": "TEXT",
+                        "followUpType": "TANGENTIAL"
+                    },
+                    "label": "Compare to Java simplicity",
+                    "toolOverrides": {}
+                }
+            ],
+            "feedbackLabels": [],
+            "toolsUsed": {},
+            "disclaimer": ""
+        },
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}{
+    "result": {
+        "modelResponse": {
+            "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec",
+            "message": "Absolutely! Python’s simplicity shines in how it reduces complexity while remaining expressive. Let’s compare a common task—reversing a list of numbers—in Python versus a language like C to highlight this.\n\n---\n\n### Task: Reverse a List of Numbers\n\n#### **In C (More Complex)**\nC requires manual memory management, explicit loops, and more lines of code:\n\n```c\n#include \u003cstdio.h\u003e\n\nvoid reverse(int arr[], int size) {\n    int start = 0;\n    int end = size - 1;\n    while (start \u003c end) {\n        int temp = arr[start];\n        arr[start] = arr[end];\n        arr[end] = temp;\n        start++;\n        end--;\n    }\n}\n\nint main() {\n    int numbers[] = {1, 2, 3, 4, 5};\n    int size = 5;\n    \n    reverse(numbers, size);\n    \n    for (int i = 0; i \u003c size; i++) {\n        printf(\"%d \", numbers[i]);\n    }\n    printf(\"\\n\");\n    return 0;\n}\n```\n\n- **Output**: `5 4 3 2 1`\n- **Why It’s Complex**: You need to manage array indices, swap elements manually, and write a separate loop to print the result. Plus, there’s boilerplate like `main()` and `printf`.\n\n---\n\n#### **In Python (Simple)**\nPython handles this in just one or two lines:\n\n```python\nnumbers = [1, 2, 3, 4, 5]\nnumbers.reverse()\nprint(numbers)\n```\n\n- **Output**: `[5, 4, 3, 2, 1]`\n- **Why It’s Simple**: Python’s built-in `reverse()` method does the work for you. No manual swapping, no explicit loops, no memory management—just a clear, readable command.\n\n---\n\n#### **Even Simpler Alternative in Python**\nPython offers multiple ways to achieve this, like using slicing:\n\n```python\nnumbers = [1, 2, 3, 4, 5]\nprint(numbers[::-1])\n```\n\n- **Output**: `[5, 4, 3, 2, 1]`\n- **Why It’s Simple**: The `[::-1]` syntax is a concise, idiomatic way to reverse a list. It’s intuitive once you learn it and requires no extra function calls.\n\n---\n\n### What Makes This Simple?\n1. **Built-in Methods**: Python’s standard library includes `reverse()`, sparing you from writing logic from scratch.\n2. **No Boilerplate**: No need for `main()`, type declarations, or manual memory allocation.\n3. **Readable Syntax**: Indentation and minimal punctuation make the code look like pseudocode.\n4. **Flexibility**: You can choose a method (`reverse()`) or a one-liner (`[::-1]`), both straightforward.\n\nThis simplicity is why Python is often the go-to for beginners and pros alike—it lets you focus on solving problems rather than wrestling with the language. Want another example with a different task?",
+            "sender": "ASSISTANT",
+            "createTime": "2025-03-06T11:57:22.689937956Z",
+            "parentResponseId": "d8985490-0980-4b6a-b5ff-c86c8e81cf7c",
+            "manual": false,
+            "partial": false,
+            "shared": false,
+            "query": "",
+            "queryType": "",
+            "webSearchResults": [],
+            "xpostIds": [],
+            "xposts": [],
+            "generatedImageUrls": [],
+            "imageAttachments": [],
+            "fileAttachments": [],
+            "cardAttachmentsJson": [],
+            "fileUris": [],
+            "fileAttachmentsMetadata": [],
+            "isControl": false,
+            "steps": [],
+            "mediaTypes": []
+        },
+        "isThinking": false,
+        "isSoftStop": false,
+        "responseId": "fd0cad39-c0e0-4fae-a50a-cec475432bec"
+    }
+}

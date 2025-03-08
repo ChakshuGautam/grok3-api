@@ -76,11 +76,11 @@ async def main():
     # Test basic think mode
     await test_basic_think()
     
-    # Test problem solving with think mode
-    await test_problem_solving()
+    # # Test problem solving with think mode
+    # await test_problem_solving()
     
-    # Test analysis with think mode
-    await test_analysis()
+    # # Test analysis with think mode
+    # await test_analysis()
     
     print("\nAll think mode examples completed!")
 

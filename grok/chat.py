@@ -907,7 +907,7 @@ async def chat_with_grok(
                 if think_mode:
                     logger.info("Enabling Think mode...")
                     try:
-                        think_toggle = await grok_page.wait_for_selector('button[aria-label*="Think"]', timeout=5000)
+                        think_toggle = await grok_page.wait_for_selector('button span:text("Think")', timeout=5000)
                         if think_toggle:
                             await think_toggle.click()
                             logger.info("Think mode enabled")

@@ -828,41 +828,41 @@ async def chat_with_grok(
                                     await save_html(grok_page, f"upload_error_{file_path.name}")
                         
                         # Try to click on the PDF file to select it if it's shown in the recent files list
-                        try:
-                            recent_file = await grok_page.wait_for_selector(f'div.bg-chip:has-text("{files[0].name}")', timeout=5000)
-                            if recent_file:
-                                logger.info(f"Found {files[0].name} in recent files list, clicking it")
-                                await recent_file.click()
+                        # try:
+                        #     recent_file = await grok_page.wait_for_selector(f'div.bg-chip:has-text("{files[0].name}")', timeout=5000)
+                        #     if recent_file:
+                        #         logger.info(f"Found {files[0].name} in recent files list, clicking it")
+                        #         await recent_file.click()
                                 
-                                if debug:
-                                    await take_screenshot(grok_page, "selected_recent_file")
-                        except TimeoutError:
-                            logger.warning(f"Could not select {files[0].name} from recent files")
+                        #         if debug:
+                        #             await take_screenshot(grok_page, "selected_recent_file")
+                        # except TimeoutError:
+                        #     logger.warning(f"Could not select {files[0].name} from recent files")
 
                         # Close the dialog if needed
-                        try:
-                            logger.info("Looking for close button...")
-                            close_button = await grok_page.wait_for_selector('button:has(svg path[d="M18 6 6 18"])', timeout=5000)
-                            if close_button:
-                                await close_button.click()
-                                logger.info("Closed dialog via X button")
-                                await asyncio.sleep(1)
+                        # try:
+                        #     logger.info("Looking for close button...")
+                        #     close_button = await grok_page.wait_for_selector('button:has(svg path[d="M18 6 6 18"])', timeout=5000)
+                        #     if close_button:
+                        #         await close_button.click()
+                        #         logger.info("Closed dialog via X button")
+                        #         await asyncio.sleep(1)
                                 
-                                if debug:
-                                    await take_screenshot(grok_page, "after_close_dialog")
-                        except TimeoutError:
-                            logger.info("Could not find X close button")
+                        #         if debug:
+                        #             await take_screenshot(grok_page, "after_close_dialog")
+                        # except TimeoutError:
+                        #     logger.info("Could not find X close button")
                             
-                            # Try the Escape key as an alternative
-                            try:
-                                await grok_page.keyboard.press("Escape")
-                                logger.info("Pressed Escape to close dialog")
-                                await asyncio.sleep(1)
+                        #     # Try the Escape key as an alternative
+                        #     try:
+                        #         await grok_page.keyboard.press("Escape")
+                        #         logger.info("Pressed Escape to close dialog")
+                        #         await asyncio.sleep(1)
                                 
-                                if debug:
-                                    await take_screenshot(grok_page, "after_escape_key")
-                            except Exception as e:
-                                logger.warning(f"Could not press Escape key: {e}")
+                        #         if debug:
+                        #             await take_screenshot(grok_page, "after_escape_key")
+                        #     except Exception as e:
+                        #         logger.warning(f"Could not press Escape key: {e}")
                     else:
                         logger.error("Could not find file input element")
                         if debug:

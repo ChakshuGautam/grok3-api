@@ -33,9 +33,10 @@ async def main():
             Message(
                 role="user",
                 content="What is this PDF about? Give me a brief summary.",
-                attachments=[FileAttachment(pdf_path)]
+                attachments=[FileAttachment(pdf_path)],
+                think_mode=True
             )
-        ])
+        ], new_chat=True)
         print("\nResponse received successfully!")
         print("Summary:", response.content)
     except Exception as e:
